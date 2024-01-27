@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+  }
+  ul{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  /* header  */
+  .container {
+    width: 1224px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  }
+  
+  
+  .header-list {
+    display: flex;
+    align-items: center;
+  }
+  .header-item {
+    margin-left: 48px;  
+  }
+  .header-item:nth-child(1){
+    margin-left: 0px;
+  }
+  .header-item-link {
+    color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.25px;
+  align-items: center;
+  }
+  
+  .header-btn {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 104.4%; /* 12.528px */
+    border-radius: 34px;
+    background: #38BFF2;
+    width: 77.903px;
+    height: 30.731px;
+    flex-shrink: 0;  
+    margin-left: 14px;
+  }
+  .header-link{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.25px;
+  }
+  select{
+    border: none;
+  }
+  /* hero  */
+  .hero {
+    background: #F9F8FD;
+  }
+  
+  .hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-bottom: 22px;
+  
+  }
+  .hero-wrapper {
+  width: 492px;
+  
+  }
+  .hero-parag {
+    color: #000;
+  font-family: Roboto;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 130.435% */
+  letter-spacing: 1.75px;
+  
+  }
+  .hero-text {
+    color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  letter-spacing: 0.24px;
+  padding-top: 31px;
+  padding-bottom: 49px;
+  }
+  .hero-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.688%; /* 19.338px */
+    letter-spacing: -0.6px;
+    width: 321px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 82px;
+background: #F15525;  
+  }
+  .hero-box {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .hero-i-p {
+    margin-left: 10px;
+  }
+  .strelka-border {
+    margin-top: 90px;
+    margin-left: 580px;
+  }
+  .title {
+    color: #22253B;
+text-align: center;
+font-family: "Gilroy SemiBold";
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px; /* 100% */
+  }
+  /* opo */
+  
+  .opo-inner {
+    padding-top: 34px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+  .opo-parag {
+    margin-bottom: 32px;
+    color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.25px;
+  }
+  .opo-wrapper {
+    display: flex;
+    align-items: center;
+   
+  }
+  .opo-box {
+    padding-left: 11px;
+  }
+  .one {
+    width: 311px;
+    height: 45.133px;
+    flex-shrink: 0;
+    border-radius: 44px;
+background: #5096FF;
+display: flex;
+width: 278.386px;
+height: 22.567px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+width: 311px;
+height: 45.133px;
+flex-shrink: 0;
+width: 311px;
+height: 45.133px;
+flex-shrink: 0;
+
+  }
+  .two {
+    display: flex;
+    width: 75.912px;
+    height: 22.567px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+visibility: hidden;
+border-radius: 44px;
+background: #FFB359;
+  }
+  .third {
+    display: flex;
+    width: 128.935px;
+    height: 22.567px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+border-radius: 44px;
+background: #FF6F50;
+width: 151.165px;
+height: 45.133px;
+flex-shrink: 0;
+  }
+  .four {
+    display: flex;
+    width: 128.935px;
+    height: 22.567px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+border-radius: 44px;
+background: #4BD071;
+width: 277.481px;
+height: 45.133px;
+flex-shrink: 0;
+margin-left: 198px;
+  }
+  .fife {
+    display: flex;
+    width: 128.935px;
+    height: 22.567px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+width: 258px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 44px;
+background: #50C0FF;
+
+  }
+  .six {
+    display: flex;
+    width: 128.935px;
+    height: 22.567px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+width: 95px;
+height: 45.133px;
+flex-shrink: 0;
+border-radius: 44px;
+background: #4B77B9;
+margin-left: 149px;
+  }
+  .seven {
+    display: flex;
+    width: 128.935px;
+    height: 22.567px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+border-radius: 44px;
+background: #AF93FF;
+width: 93.833px;
+height: 45.133px;
+flex-shrink: 0;
+margin-left: 100px;
+  }
+  .opo-p {
+    color: #22253B;
+font-family: "Gilroy SemiBold";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 125% */
+width: 386px;
+  }
+  .danger {
+    display: flex;
+width: 75.912px;
+height: 22.567px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px; /* 270.588% */
+border-radius: 44px;
+background: #FFB359;
+width: 89px;
+height: 45.133px;
+flex-shrink: 0;
+margin-left: 189px;
+  }
+  .des {
+  }
+  .container {
+  }
+  .des-inner {
+  }
+  .-title-midle {
+    width: 598px;
+    color: #22253B;
+text-align: center;
+font-family: "Gilroy SemiBold";
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px; /* 100% */
+margin-left: auto;
+margin-right: auto;
+  }
+  /* .des-frist-box {
+ 
+  } */
+  .des-help-logos {
+  margin-left: 27px;
+  }
+  .des-second-box {
+    margin-left: 150px;
+  }
+  .polo {
+    background-color: #fafafa;
+  }
+  .container {
+
+  }
+  .polo-inner {
+
+  }
+  .polo-box {
+
+  }
+  .polo-tetx {
+color: #22253B;
+text-align: center;
+font-family: "Gilroy SemiBold";
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px; /* 100% */
+width: 933px;
+margin-left: auto;
+margin-right: auto;
+  }
+  .polo-tetx-second {
+    color: #22253B;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    width: 642px;
+height: 70px;
+flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
+  }
+  .polo-logo-bg {
+margin-left: 300px;
+  }
+  .help-logo {
+    margin-top: 48px;
+  }
+  .mnm-box {
+    margin-top: 145px;
+  }
+  /* .logo-mnm {
+    
+  } */
+  .mino {
+  }
+  
+  .container {
+
+  }
+  .mino-inner {
+
+  }
+  .titl-fora-mino {
+    color: #22253B;
+    text-align: center;
+    font-family: "Gilroy SemiBold";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; /* 100% */
+    width: 491px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mino-box {
+ display: flex;
+ margin-top: 55px;
+  }
+  .one-logo {
+
+  }
+  .mini-tetxs {
+
+  }
+  .mino-hero {
+
+  }
